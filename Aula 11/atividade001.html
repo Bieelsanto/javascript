@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detector de nacionalidade</title>
+    <p1>País:</p1>
+    <input type="text" name="txtn1" id="txtn1">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="res"></div>
+</head>
+<body>
+   <script>
+        function verificar(){
+            var n1 = window.document.querySelector('input#txtn1')
+            var res = window.document.getElementById('res')
+            if (n1.value == "Brasil"){
+                res.innerText = ('Sua nacionalidade é Brasileira')
+            } else {
+                res.innerText = ('Sua nacionalidade é Estrangeira')
+            }
+        }
+   </script> 
+</body>
+</html>
