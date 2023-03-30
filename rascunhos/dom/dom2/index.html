@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM training</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <article>
+            <form id="frm" action="action.php" onsubmit= "return valido()">
+                    <label for="iname">Name</label>
+                    <input type="text" name="name" id="iname" onkeypress="change()">
+                    <label for="iage">Age</label>
+                    <input type="number" name="age" id="iage">
+                    <label for="iclass">Grade</label>
+                    <input type="text" name="grade" id="igrade">
+                    <input id="isub" type="submit" value="Enviar">
+            </form>
+        </article>
+    </main>
+    <script src="valido.js"></script>
+    <script src="dom.js"></script>
+</body>
+</html>

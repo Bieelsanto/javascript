@@ -51,8 +51,10 @@ carro4.setComb=100
 carro4.setAlerta=false
 Carro.alerta=false //Static permite mencionar a classe
 
-carro1.info()
+
+/* carro1.info()
 carro2.info()
 carro3.info()
-carro4.info()
+carro4.info() */
+Carro.
 console.log(`----------------------------------------`)
